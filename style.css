@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5e5e5;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+.page {
+    width: 750px;
+    margin: 140px auto;
+}
+
+header h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+header p {
+    width: 417px;
+    height: 46px;
+    left: 345px;
+    top: 216px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 58px;
+}
+
+form {
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+fieldset legend {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    width: 100%;
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+    color: #535971;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-wrapper label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    padding-bottom: 8px;
+}
+
+.input-wrapper label span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #c1bccc;
+    margin-left: 10px;
+}
+
+.input-wrapper label span:hover {
+    color: #6c6a71;
+}
+
+.input-wrapper input {
+    background: #fafafc;
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6a71;
+    cursor: text;
+}
+
+.fieldset-wrapper h1 {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+}
+
+.col-3 {
+    display: flex;
+    gap: 20px;
+}
+
+.col-3 #name  {
+    width: 300px;
+}
+
+.col-3 #lastname  {
+    width: 300px;
+}
+
+.col-3 #date  {
+    width: 300px;
+}
+
+.col-3 #time-begin  {
+    width: 140px;
+}
+
+.col-3 #time-end  {
+    width: 140px;
+}
+
+footer {
+    background: #535971;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+    margin-bottom: 366px;
+    border-radius: 0 0 20px 20px;
+}
+
+footer .button {
+    height: 56px;
+    background: #ff5374;
+    border: 0;
+    border-radius: 20px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer .button:hover {
+    background: #fa3e63;
+    
+}
